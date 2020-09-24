@@ -17,7 +17,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 public class Laboratorio {
 @Id
+private Long id_laboratorio; 
 private int numero_edificio;
-private int numero_laboratorio;
-private String descripcion;
+private String nombre_laboratorio;
 }

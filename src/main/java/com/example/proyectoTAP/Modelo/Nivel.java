@@ -17,10 +17,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 
 public class Nivel {
-
-private int numero_nivel;
+@Id
+private Long id_nivel;
 private String nombre;
-private String paralelo;
 private List<Asignatura> listaasignatura;
 
 }

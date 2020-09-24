@@ -18,6 +18,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Carrera {
 @Id
+private Long id_carrera;
 private String nombre_carrera;
 private String modalidad_carrera;
 private String jornada_carrera;

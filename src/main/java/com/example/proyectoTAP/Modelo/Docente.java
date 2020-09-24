@@ -18,7 +18,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Docente {
     @Id
+    private Long id_docente;
     private String titulo;
     private int tiempoLaborado;
-    private List<Persona>persona;
+    private List<Persona> listapersona;
 }

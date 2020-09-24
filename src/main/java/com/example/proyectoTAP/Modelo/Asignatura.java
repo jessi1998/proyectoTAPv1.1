@@ -17,7 +17,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 
 public class Asignatura {
-    
+    @Id
+    private Long id_asignatura;
     private String nombre_asigantura;
     private String nomenclatura_asignatura;
     private int id_docente;
